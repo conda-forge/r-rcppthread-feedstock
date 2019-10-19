@@ -7,7 +7,7 @@ Package license: MIT
 
 Feedstock license: BSD 3-Clause
 
-Summary: Provides a C++11-style thread class and thread pool that can safely be interrupted from R; see, Nagler (2018) <arXiv:1811.00450>.
+Summary: Provides a C++11-style thread class and thread pool that can safely be interrupted from R.
 
 
 
