@@ -1,4 +1,4 @@
-{% set version = '0.5.3' %}
+{% set version = "0.5.4" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/RcppThread_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/RcppThread/RcppThread_{{ version }}.tar.gz
-  sha256: 978ed6fe1b79ba76f2470539152171fd7d626a0dea184467008f75fe3f6cb1d9
+  sha256: ce3af6c73634ff2db4534b7aa1aee519ad1d88f88326bc9d25178cd8ccb39fd6
 
 build:
   merge_build_host: True  # [win]
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -36,6 +36,7 @@ test:
 about:
   home: https://github.com/tnagler/RcppThread
   license: MIT
+  license_file: LICENSE
   summary: Provides a C++11-style thread class and thread pool that can safely be interrupted
     from R; see, Nagler (2018) <arXiv:1811.00450>.
   license_family: MIT
