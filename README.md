@@ -5,11 +5,9 @@ Home: https://github.com/tnagler/RcppThread
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-rcppthread-feedstock/blob/master/LICENSE.txt)
 
 Summary: Provides a C++11-style thread class and thread pool that can safely be interrupted from R.
-
-
 
 Current build status
 ====================
