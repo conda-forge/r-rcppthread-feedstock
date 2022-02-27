@@ -14,8 +14,7 @@ source:
 
 build:
   merge_build_host: true  # [win]
-  number: 0
-  noarch: generic
+  number: 1
   rpaths:
     - lib/R/lib/
     - lib/
@@ -23,6 +22,8 @@ build:
 requirements:
   build:
     - {{ posix }}zip               # [win]
+    - {{ compiler('c') }}
+    - {{ compiler('cxx') }}
   host:
     - r-base
   run:
