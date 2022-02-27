@@ -24,6 +24,7 @@ requirements:
     - {{ posix }}zip               # [win]
     - {{ compiler('c') }}
     - {{ compiler('cxx') }}
+    - make
   host:
     - r-base
   run:
