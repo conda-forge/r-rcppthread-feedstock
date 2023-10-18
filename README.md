@@ -3,6 +3,7 @@ About r-rcppthread-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-rcppthread-feedstock/blob/main/LICENSE.txt)
 
+
 About r-rcppthread
 ------------------
 
@@ -11,6 +12,7 @@ Home: https://github.com/tnagler/RcppThread
 Package license: MIT
 
 Summary: Provides a C++11-style thread class and thread pool that can safely be interrupted from R.
+
 About r-rcppthread
 ------------------
 
