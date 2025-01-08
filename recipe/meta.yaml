@@ -1,4 +1,4 @@
-{% set version = "2.1.7" %}
+{% set version = "2.2.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/RcppThread_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/RcppThread/RcppThread_{{ version }}.tar.gz
-  sha256: 88debafefb13a77e507eeb2ae2a9e53f717e8cff071fcb4063b2be549423bbe8
+  sha256: 44835bae083ff89924e27856674868901c895537b24c4f7c11850defa8058d37
 
 build:
-  number: 1
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
